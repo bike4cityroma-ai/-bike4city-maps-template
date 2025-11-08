@@ -1,0 +1,39 @@
+name: Build Bike4City APK
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Organic Maps
+      uses: actions/checkout@v3
+      with:
+        repository: organicmaps/organicmaps
+        path: organicmaps
+        
+    - name: Copy custom files
+      run: |
+        cp -r translations/* organicmaps/translations/
+        cp -r android/* organicmaps/android/
+        cp -r iphone/* organicmaps/iphone/
+        
+    - name: Setup Android
+      working-directory: organicmaps
+      run: |
+        ./tools/android/set_up_android.py
+        
+    - name: Build APK
+      working-directory: organicmaps
+      run: |
+        ./tools/android/build.sh --release
+        
+    - name: Upload APK
+      uses: actions/upload-artifact@v3
+      with:
+        name: bike4city-app
+        path: organicmaps/android/src/app/build/outputs/apk/release/app-release.apk
