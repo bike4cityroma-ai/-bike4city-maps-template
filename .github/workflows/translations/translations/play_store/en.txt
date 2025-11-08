@@ -1,0 +1,22 @@
+Bike4City Maps - Bike Navigation & Offline Maps
+
+Free bike navigation app with offline maps. Perfect for urban cycling and bike routes in your city.
+
+🚴‍♂️ **Features:**
+• Turn-by-turn bike navigation
+• Offline maps - no internet required
+• Bike paths and cycling routes
+• Fast routing optimized for cyclists
+• Free forever, no ads
+• OpenStreetMap data
+
+📱 **Perfect for:**
+• Urban commuting
+• Bike touring
+• Finding bike-friendly routes
+• Offline navigation
+
+🔒 **Privacy focused:**
+• No data collection
+• No tracking
+• No ads
