@@ -1,0 +1,35 @@
+# Bike4City Maps - Customized version
+
+app_name: "Bike4City Maps"
+download: "Download"
+search: "Search"
+search_button: "Search"
+maps: "Maps"
+settings: "Settings"
+about: "About Bike4City Maps"
+privacy_policy: "Privacy Policy"
+terms_of_use: "Terms of Use"
+help: "Help"
+feedback: "Feedback"
+
+# Main menu
+bookmarks: "My Places"
+download_maps: "Download Maps"
+route_planning: "Route Planning"
+
+# Navigation
+driving_options: "Bike Options"
+avoid_tolls: "Avoid Busy Roads"
+avoid_unpaved: "Avoid Unpaved Roads"
+
+# Common buttons
+ok: "OK"
+cancel: "Cancel"
+done: "Done"
+save: "Save"
+continue: "Continue"
+skip: "Skip"
+
+# Errors
+no_route: "No bike route found"
+connection_error: "Connection error"
